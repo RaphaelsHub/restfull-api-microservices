@@ -36,6 +36,8 @@ public class DataController(IDataService dataService, AlphaApiClient alphaApiCli
         {
             return NotFound(new { Message = "Data not found in BetaApi!" });
         }
+        
+        updatedData = updatedData with { Id = id };
 
         dataService.Update(updatedData);
         return Ok(new { Message = "Data updated successfully in BetaApi!", Data = updatedData });

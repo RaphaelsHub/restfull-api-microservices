@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "16bwgRkpKqgG6EWKjzGzACg9kI8uPksLyHCdhZNbsys=",
+  "Source": "BetaApi",
+  "BasePath": "_content/BetaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
