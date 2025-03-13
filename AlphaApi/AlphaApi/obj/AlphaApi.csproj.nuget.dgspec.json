@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\AlphaApi\\AlphaApi.csproj": {}
+    "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\alphaapi\\AlphaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\AlphaApi\\AlphaApi.csproj": {
+    "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\alphaapi\\AlphaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\AlphaApi\\AlphaApi.csproj",
+        "projectUniqueName": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\alphaapi\\AlphaApi.csproj",
         "projectName": "AlphaApi",
-        "projectPath": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\AlphaApi\\AlphaApi.csproj",
+        "projectPath": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\alphaapi\\AlphaApi.csproj",
         "packagesPath": "C:\\Users\\speke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\AlphaApi\\obj\\",
+        "outputPath": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\alphaapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\speke\\AppData\\Roaming\\NuGet\\NuGet.Config"

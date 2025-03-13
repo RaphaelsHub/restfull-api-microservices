@@ -24,6 +24,8 @@ public class Program
         builder.Services.AddSwaggerGen();
         builder.Services.AddEndpointsApiExplorer();
         
+        builder.WebHost.UseUrls("http://0.0.0.0:8080");
+        
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

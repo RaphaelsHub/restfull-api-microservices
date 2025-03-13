@@ -23,6 +23,8 @@ public class Program
         builder.Services.AddControllers();
         builder.Services.AddSwaggerGen();
         builder.Services.AddEndpointsApiExplorer();
+        
+        builder.WebHost.UseUrls("http://0.0.0.0:8081");
 
         var app = builder.Build();
 

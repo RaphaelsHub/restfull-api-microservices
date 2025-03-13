@@ -56,28 +56,28 @@ public class DataController(IDataService dataService, BetaApiClient alphaApiClie
         return Ok(new { Message = $"Data with Id {id} deleted successfully from AlphaApi!" });
     }
 
-    [HttpGet("alpha")]
+    [HttpGet("beta")]
     public async Task<IActionResult> GetAlphaData()
     {
         var result = await alphaApiClient.GetDataFromBetaApi();
         return Ok(result);
     }
 
-    [HttpPost("alpha")]
+    [HttpPost("beta")]
     public async Task<IActionResult> PostAlphaData([FromBody] Data data)
     {
         var result = await alphaApiClient.PostDataToBetaApi(data);
         return Ok(result);
     }
 
-    [HttpPut("alpha/{id}")]
+    [HttpPut("beta/{id}")]
     public async Task<IActionResult> PutAlphaData(int id, [FromBody] Data data)
     {
         var result = await alphaApiClient.PutDataToBetaApi(id, data);
         return Ok(result);
     }
 
-    [HttpDelete("alpha/{id}")]
+    [HttpDelete("beta/{id}")]
     public async Task<IActionResult> DeleteAlphaData(int id)
     {
         var result = await alphaApiClient.DeleteDataFromBetaApi(id);
