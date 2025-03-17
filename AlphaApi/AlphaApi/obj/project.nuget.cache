@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TTQVNYrqzH8=",
+  "dgSpecHash": "TfFGPegYNeY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\alphaapi\\AlphaApi.csproj",
+  "projectFilePath": "C:\\Users\\speke\\Documents\\restfull-api-services\\AlphaApi\\AlphaApi\\AlphaApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\speke\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
     "C:\\Users\\speke\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
